@@ -737,7 +737,7 @@ function LeftColumn(props) {
       _react2.default.createElement(
         "div",
         { className: "w3-display-container" },
-        _react2.default.createElement("img", { src: "../img/cvImg.png", className: "cvImage" }),
+        _react2.default.createElement("img", { src: "./img/cvImg.png", className: "cvImage" }),
         _react2.default.createElement(
           "div",
           { className: "w3-display-bottomleft w3-container w3-text-black" },
@@ -930,7 +930,7 @@ function LeftColumn(props) {
     _react2.default.createElement("br", null)
   );
 }
-// import {cvImage} from "../img/cvImg.png"
+// import {cvImage} from "../img/cvImg.png";
 
 /***/ }),
 /* 11 */
