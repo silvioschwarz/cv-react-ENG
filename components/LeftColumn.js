@@ -1,5 +1,5 @@
 import React from "react";
-// import {cvImage} from "../img/cvImg.png"
+ import {cvImage} from "../img/cvImg.png";
 import languages from "../data/languages";
 import programming from "../data/programming";
 import expertise from "../data/expertise";
@@ -35,7 +35,7 @@ export default function LeftColumn(props) {
     <div className="w3-third left-column">
       <div className="w3-white w3-text-grey w3-card-4">
         <div className="w3-display-container">
-          <img src="../img/cvImg.png" className="cvImage" />
+          <img src="./img/cvImg.png" className="cvImage" />
           <div className="w3-display-bottomleft w3-container w3-text-black">
             <h2 className="w3-text-white">Silvio Schwarz</h2>
           </div>
