@@ -42,18 +42,22 @@ export default function LeftColumn(props) {
         </div>
         <div className="w3-container">
           <div className="nomargin">
-          <p className="info">
-            <i className="fa fa-home fa-fw w3-margin-right w3-large w3-text-blue-gray"></i>
-            Potsdam, Germany
-          </p>
-          <p className="info">
-            <i className="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-blue-gray"></i>
-            admin@silvioschwarz.com
-          </p>
-          <p className="info">
-            <i className="fa fa-phone fa-fw w3-margin-right w3-large w3-text-blue-gray"></i>
-            +49 174 6507598
-          </p>
+            <p>
+              <i className="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-blue-gray"></i>
+              Geophysicist (B.Sc.)
+            </p>
+            <p className="info">
+              <i className="fa fa-home fa-fw w3-margin-right w3-large w3-text-blue-gray"></i>
+              Potsdam, Germany
+            </p>
+            <p className="info">
+              <i className="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-blue-gray"></i>
+              admin@silvioschwarz.com
+            </p>
+            <p className="info">
+              <i className="fa fa-phone fa-fw w3-margin-right w3-large w3-text-blue-gray"></i>
+              +49 174 6507598
+            </p>
           </div>
 
           <div className="expertise">
@@ -63,12 +67,14 @@ export default function LeftColumn(props) {
             <div className="expertise-container">{expertiseComp}</div>
           </div>
 
-          {/* <div className="skills">
+          <div className="skills">
             <p className="w3-large">
               <b>Skills</b>
             </p>
+            <i className="fa fa-linux fa-fw w3-margin-right w3-xxxlarge w3-text-blue-gray"></i>
+            <i className="fa fa-windows fa-fw w3-margin-right w3-xxxlarge w3-text-blue-gray"></i>
             <div>{programmingComp}</div>
-          </div> */}
+          </div>
 
           <div>
             <p className="w3-large w3-text-theme">
@@ -139,12 +145,26 @@ export default function LeftColumn(props) {
             </div>
           </div>
 
-          <br />
-
-          <div className="wordcloud">
-            <img src="./img/wordcloudGER-1.png"></img>
+          <p className="w3-large">
+              <b>Interests</b>
+            </p>
+          <div className="wordcloud" style={{margin:0}}>
+            <img src="./img/wordcloud2-1.png"></img>
           </div>
         </div>
+        <footer className="w3-container w3-blue-gray w3-center w3-margin-top">
+      <p>Find me on social media.</p>
+      <i className="fa fa-github fa-fw w3-margin-right w3-xxlarge w3-hover-opacity"></i>
+      <i className="fa fa-linkedin fa-fw w3-margin-right w3-xxlarge w3-hover-opacity"></i>
+      <i className="fa fa-instagram fa-fw w3-margin-right w3-xxlarge w3-hover-opacity"></i>
+      <i className="fa fa-twitter fa-fw w3-margin-right w3-xxlarge w3-hover-opacity"></i>
+      <p>
+        Powered by{" "}
+        <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">
+          w3.css
+        </a>
+      </p>
+    </footer>
       </div>
       <br />
 
