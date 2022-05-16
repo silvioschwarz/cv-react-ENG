@@ -425,13 +425,14 @@ function App() {
 
   return _react2.default.createElement(
     "div",
-    { className: "w3-content w3-margin-top", style: { "maxwidth": "1440px" } },
+    { className: "w3-content w3-margin-top", style: { "max-width": "1440px" } },
     _react2.default.createElement(
       "div",
       { className: "w3-row-padding" },
       _react2.default.createElement(_LeftColumn2.default, null),
       _react2.default.createElement(_RightColumn2.default, null)
-    )
+    ),
+    _react2.default.createElement(_Footer2.default, null)
   );
 }
 
@@ -955,32 +956,8 @@ function LeftColumn(props) {
         ),
         _react2.default.createElement(
           "div",
-          { className: "wordcloud", style: { margin: 0 } },
+          { className: "wordcloud", style: { margin: "0 0 10px 0" } },
           _react2.default.createElement("img", { src: "./img/wordcloud2-1.png" })
-        )
-      ),
-      _react2.default.createElement(
-        "footer",
-        { className: "w3-container w3-blue-gray w3-center w3-margin-top" },
-        _react2.default.createElement(
-          "p",
-          null,
-          "Find me on social media."
-        ),
-        _react2.default.createElement("i", { className: "fa fa-github fa-fw w3-margin-right w3-xxlarge w3-hover-opacity" }),
-        _react2.default.createElement("i", { className: "fa fa-linkedin fa-fw w3-margin-right w3-xxlarge w3-hover-opacity" }),
-        _react2.default.createElement("i", { className: "fa fa-instagram fa-fw w3-margin-right w3-xxlarge w3-hover-opacity" }),
-        _react2.default.createElement("i", { className: "fa fa-twitter fa-fw w3-margin-right w3-xxlarge w3-hover-opacity" }),
-        _react2.default.createElement(
-          "p",
-          null,
-          "Powered by",
-          " ",
-          _react2.default.createElement(
-            "a",
-            { href: "https://www.w3schools.com/w3css/default.asp", target: "_blank" },
-            "w3.css"
-          )
         )
       )
     ),
@@ -1091,7 +1068,7 @@ function RightColumn(props) {
       _react2.default.createElement(
         "h2",
         { className: "w3-text-grey" },
-        _react2.default.createElement("i", { className: "fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-blue-gray" }),
+        _react2.default.createElement("i", { className: "fa fa-wrench fa-fw w3-margin-right w3-xxlarge w3-text-blue-gray" }),
         "Projects"
       ),
       projectElements

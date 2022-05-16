@@ -148,11 +148,11 @@ export default function LeftColumn(props) {
           <p className="w3-large">
               <b>Interests</b>
             </p>
-          <div className="wordcloud" style={{margin:0}}>
+          <div className="wordcloud" style={{margin:"0 0 10px 0"}}>
             <img src="./img/wordcloud2-1.png"></img>
           </div>
         </div>
-        <footer className="w3-container w3-blue-gray w3-center w3-margin-top">
+        {/* <footer className="w3-container w3-blue-gray w3-center w3-margin-top">
       <p>Find me on social media.</p>
       <i className="fa fa-github fa-fw w3-margin-right w3-xxlarge w3-hover-opacity"></i>
       <i className="fa fa-linkedin fa-fw w3-margin-right w3-xxlarge w3-hover-opacity"></i>
@@ -164,7 +164,7 @@ export default function LeftColumn(props) {
           w3.css
         </a>
       </p>
-    </footer>
+    </footer> */}
       </div>
       <br />
 
